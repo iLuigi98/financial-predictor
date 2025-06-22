@@ -1,10 +1,10 @@
-# S&P 500 Market Predictor
+# 🧠 S&P 500 Market Predictor
 
 A machine learning pipeline for predicting the daily directional movement of the S&P 500 index. This project is the first in a broader financial data science series aimed at showcasing applied ML, data engineering, and strategy simulation skills in real-world market contexts.
 
 ---
 
-## Project Overview
+## 📈 Project Overview
 
 This project uses historical S&P 500 OHLCV data to:
 - Perform feature engineering using technical indicators
@@ -15,7 +15,7 @@ This project uses historical S&P 500 OHLCV data to:
 
 ---
 
-## Key Features
+## 🔍 Key Features
 
 - **Data Fetching**: Pulls historical S&P 500 data from Yahoo Finance with configurable start/end dates.
 - **Feature Engineering**: Calculates common technical indicators (RSI, MACD, Bollinger Bands, etc.) for enhanced signal quality.
@@ -27,11 +27,11 @@ This project uses historical S&P 500 OHLCV data to:
 
 ---
 
-## Technologies Used
+## 🧪 Technologies Used
 
 - Python 3.11
 - `pandas`, `numpy`, `matplotlib`, `seaborn`
-- `scikit-learn`, `XGBoost`, `LightGBM`
+- `scikit-learn`
 - `yfinance`
 - `ta` (technical analysis library)
 - `Docker` (planned)
@@ -39,7 +39,7 @@ This project uses historical S&P 500 OHLCV data to:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 sp500-predictor/
@@ -69,7 +69,7 @@ sp500-predictor/
 
 ---
 
-## How to Run
+## 🚀 How to Run
 
 ### 1. Clone the repo
 ```bash
@@ -88,11 +88,11 @@ python src/fetch_data.py
 ```
 
 ### 4. Run the notebook
-Open `01_sp500_predictor_detailed_walkthrough.ipynb` in Jupyter Notebook or JupyterLab.
+Open `01_sp500_predictor_detailed_walkthrough_v2.ipynb` or `04_modular_pipeline.ipynb` in Jupyter Notebook or JupyterLab.
 
 ---
 
-## Future Improvements
+## 📌 Future Improvements
 
 - Add XGBoost and LightGBM with hyperparameter tuning
 - Add rolling window validation and time-based cross-validation
@@ -102,7 +102,7 @@ Open `01_sp500_predictor_detailed_walkthrough.ipynb` in Jupyter Notebook or Jupy
 
 ---
 
-## Project Series Roadmap
+## 🧭 Project Series Roadmap
 
 This is the first in a series of financial ML projects. Future topics include:
 - Company fundamentals modeling (balance sheet, income, cash flow)
@@ -112,8 +112,14 @@ This is the first in a series of financial ML projects. Future topics include:
 
 ---
 
-## Author
+## 👤 Author
 
 **Luigi Cheng**  
-Data Engineer & Analyst
-[GitHub](https://github.com/iLuigi98) | [Portfolio](https://luigidata.com)
+Data Science Master's Student @ UC San Diego  
+[GitHub](https://github.com/iLuigi98) | [Portfolio](https://luigidata.com) *(in progress)*
+
+---
+
+## 📝 License
+
+MIT License. See `LICENSE` file for details.
